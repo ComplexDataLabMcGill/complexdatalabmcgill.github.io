@@ -81,6 +81,20 @@ Andy Huang:
       icon: "fas fa-link"
       url: "https://www.cs.mcgill.ca/~shuang43/"
 
+Aarash Feizi:
+  role        : students
+  name        : "Aarash Feizi"
+  avatar      : "assets/images/teampic/aarash.jpg"
+  bio         : "I am a masters student in McGill University and a research assistance at Mila. I am interested in machine learning for social good with real-world impacts. My current research is on identifying organized criminal activity regarding human trafficking using image data."
+  title       : "MSc Computer Science"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:aarash.feizi@mail.mcgill.ca"
+    - label: "Github"
+      icon: "fab fa-fw fa-github-square"
+      url: "https://github.com/aarashfeizi"
+
 Charlotte Ding:
   role        : students
   name        : "Charlotte Ding"
@@ -124,7 +138,7 @@ Yifei Li:
   name        : "Yifei Li"
   avatar      : "assets/images/teampic/yifei.jpg"
   bio         : "I'm an undergraduate student in Computer Science at McGill University. I work on entity extraction in online escort ads. I am interested in data mining and natural language processing."
-  title       : "BSc. Computer Science" 
+  title       : "BSc. Computer Science"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
