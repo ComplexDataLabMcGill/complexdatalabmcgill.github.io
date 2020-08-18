@@ -8,19 +8,19 @@ services:
   autogen-profiles:
     image: python:3.8-slim-buster
     container_name: autogen-profiles.complexdatalabmcgill.github.io
-    environment: 
+    environment:
       - DATA_ROOT=/data
     volumes:
       - ./scripts:/run
       - ./_data:/data/_data
       - ./_members:/data/_members
     working_dir: /run
-    command: bash -c "pip install -q pyyaml tqdm && ./autogen_profiles"
+    command: bash -c "/usr/local/bin/python -m pip install --upgrade pip && pip install -q pyyaml tqdm && ./autogen_profiles"
 
-  jekyll: 
+  jekyll:
     image: jekyll/jekyll:3.8
     container_name: complexdatalabmcgill.github.io
-    depends_on: 
+    depends_on:
       - "autogen-profiles"
     environment:
         - JEKYLL_ENV=docker
