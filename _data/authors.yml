@@ -1,5 +1,5 @@
 Albert Orozco Camacho:
-  role        : students
+  role        : current
   name        : "Albert Orozco Camacho"
   bio         : "MSc student interested in all things related to social network interactions."
   avatar      : "assets/images/teampic/albert.png"
@@ -16,7 +16,7 @@ Albert Orozco Camacho:
       url: "https://github.com/alorozco53"
 
 Kellin Pelrine:
-  role        : students
+  role        : current
   name        : "Kellin Pelrine"
   bio         : "PhD student (starting Fall 2020) excited to discuss all problems with real-world impact. Out to solve them with the magic of ML. Enjoys fusing different perspectives together with the glue of data and computation, from problem-specific domain knowledge to his background in economics and math."
   avatar      : "assets/images/teampic/kp_pic.jpg" # kellin.jpg
@@ -30,7 +30,7 @@ Kellin Pelrine:
       url: "https://github.com/kellinpelrine/"
 
 Jacob Danovitch:
-  role        : students
+  role        : current
   name        : "Jacob Danovitch"
   avatar      : "assets/images/teampic/jacob.jpg"
   bio         : "Incoming MSc student and data science intern at Microsoft Search, Assistant and Intelligence. Interested in the intersection of natural language processing and network science, with a focus on social media."
@@ -48,7 +48,7 @@ Jacob Danovitch:
 
 
 Reihaneh Rabbany:
-  role        : faculty
+  role        : current
   name        : "Reihaneh Rabbany"
   avatar      : "assets/images/teampic/rrabba.jpg"
   bio         : "Reihaneh is an Assistant Professor at the School of Computer Science, McGill University and a member of Mila, Quebec’s AI Institute, and a Canada CIFAR AI Chair. Before joining McGill, she was a Postdoctoral fellow at the School of Computer Science, Carnegie Mellon University, and completed her Ph.D. in the Computing Science Department at the University of Alberta. Her research is at the intersection of network science, data mining and machine learning, with a focus on analyzing real-world interconnected data, and social good applications."
@@ -65,7 +65,7 @@ Reihaneh Rabbany:
       url: "http://www.reirab.com/"
 
 Andy Huang:
-  role        : students
+  role        : current
   name        : "Andy Huang"
   avatar      : "assets/images/teampic/andy.jpg"
   bio         : "I am a master student at Mila and McGill University, supervised by Professor Reihaneh Rabbany and Professor Guillaume Rabusseau. Previously I obtained an Honours in Computer Science from McGill University in 2019. My current research focus on anomaly detection in graph data using tensor factorization techniques. I have also worked on integrating autoML techniques into continual learning settings."
@@ -82,7 +82,7 @@ Andy Huang:
       url: "https://www.cs.mcgill.ca/~shuang43/"
 
 Aarash Feizi:
-  role        : students
+  role        : current
   name        : "Aarash Feizi"
   avatar      : "assets/images/teampic/aarash.jpg"
   bio         : "I am a masters student in McGill University and a research assistance at Mila. I am interested in machine learning for social good with real-world impacts. My current research is on identifying organized criminal activity regarding human trafficking using image data."
@@ -96,7 +96,7 @@ Aarash Feizi:
       url: "https://github.com/aarashfeizi"
 
 Charlotte Ding:
-  role        : students
+  role        : current
   name        : "Charlotte Ding"
   avatar      : "assets/images/teampic/charlotte.jpg"
   bio         : "Master student at Mila/McGill and software engineer at Expedia. Interested in graph representation learning and network science."
@@ -113,28 +113,28 @@ Charlotte Ding:
     #   url: "https://www.cs.mcgill.ca/~shuang43/"
 
 Aayushi Kulshrestha:
-  role        : students
+  role        : current
   name        : "Aayushi Kulshrestha"
   avatar      : ""
   bio         : ""
   title       : "MSc. Machine Learning"
 
 Junhao Wang:
-  role        : students
+  role        : current
   name        : "Junhao Wang"
   avatar      : ""
   bio         : ""
   title       : "MSc. Machine Learning"
 
 Sacha Lévy:
-  role        : students
+  role        : visiting
   name        : "Sacha Lévy"
   avatar      : "assets/images/teampic/sacha.jpg"
   bio         : "I am an undergraduate student at McGill University and research assistant at Mila. I work on applied ML for social good. I focus on understanding criminal organisation behaviours on social networks and online escort marketplaces. I implement data pipelines. I am interested in artificial intelligence, computers and physics."
   title       : "BEng. Computer Engineering"
 
 Yifei Li:
-  role        : students
+  role        : visiting
   name        : "Yifei Li"
   avatar      : "assets/images/teampic/yifei.jpg"
   bio         : "I'm an undergraduate student in Computer Science at McGill University. I work on entity extraction in online escort ads. I am interested in data mining and natural language processing."
@@ -145,7 +145,7 @@ Yifei Li:
       url: "mailto:yifei.li@mail.mcgill.ca"
 
 Pratheeksha Nair:
-  role        : students
+  role        : current
   name        : "Pratheeksha Nair"
   avatar      : "assets/images/teampic/pratheeksha.png"
   bio         : "PhD student at Mila/McGill interested in using Machine Learning and AI for socially good applications. Especially interested in addressing questions related to the interpretability and explainability of models in socially relevant fields. Currently excited about developing methods to detect human trafficking from online escort advertisements."

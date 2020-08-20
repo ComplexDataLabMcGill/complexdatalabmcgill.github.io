@@ -12,26 +12,10 @@
 {% assign group_names = __empty_array %}
 {% assign group_items = __empty_array %}
 
-{% comment %} Map {% endcomment %}
-{% assign __names =  include.collection | map: include.field %}
-
-{% comment %} Flatten {% endcomment %}
-{% assign __names =  __names | join: ',' | join: ',' | split: ',' %}
-
-{% comment %} Uniq {% endcomment %}
-{% assign __names =  __names | sort %}
-{% for name in __names | sort %}
-
-  {% comment %} If not equal to previous then it must be unique as sorted {% endcomment %}
-  {% unless name == previous %}
-
-    {% comment %} Push to group_names {% endcomment %}
-    {% assign group_names = group_names | push: name %}
-  {% endunless %}
-
-  {% assign previous = name %}
+{% comment %} Get roles in order {% endcomment %}
+{% for r in site.data.roles %}
+  {% assign group_names = group_names | push: r[0] %}
 {% endfor %}
-
 
 {% comment %} group_items {% endcomment %}
 {% for name in group_names %}
