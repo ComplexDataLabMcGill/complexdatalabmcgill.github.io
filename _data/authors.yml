@@ -29,6 +29,17 @@ Kellin Pelrine:
       icon: "fab fa-fw fa-github-square"
       url: "https://github.com/kellinpelrine/"
 
+Raika Karimi:
+  role        : visiting
+  name        : "Raika Karimi"
+  bio         : "A masters student and research assistant at Mila. I am interested in applied Machine Learning for neuroimaging data (MRI, EEG). I currently focus on brain graph classification using graph neural networks."
+  avatar      : "assets/images/teampic/raika.jpg"
+  title       : " M.Sc. Electrical and Computer Engineering"
+  links:
+    - label: "Github"
+      icon: "fab fa-fw fa-github-square"
+      url: "https://github.com/raykakarimi"
+
 Jacob Danovitch:
   role        : current
   name        : "Jacob Danovitch"
@@ -166,3 +177,7 @@ Pratheeksha Nair:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/pnair96/"
+
+Heather Bosiljevac:
+  role: past
+  name: "Heather Bosiljevac"
