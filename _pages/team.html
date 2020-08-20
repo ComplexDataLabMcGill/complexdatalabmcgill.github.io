@@ -4,6 +4,7 @@ excerpt: "Complex Data Lab: Team members"
 sitemap: false
 permalink: /team/
 classes: wide container team
+shit: visiting
 ---
 
 {% assign __authors = '' | split: ',' %}
@@ -22,7 +23,11 @@ classes: wide container team
 
 {% for section_name in group_names %}
   {% assign section = group_items[forloop.index0] | sort: "name" %}
-  {% include team_section.html %}
+  {% if section.size > 0 %}
+    {% assign section_render_name = section_name | downcase %}
+    {% assign section_render_name = site.data.roles[section_render_name] %}
+    {% include team_section.html %}
+  {% endif %}
 {% endfor %}
 
 
