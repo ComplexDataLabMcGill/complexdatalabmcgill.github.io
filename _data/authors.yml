@@ -133,9 +133,20 @@ Aayushi Kulshrestha:
 Junhao Wang:
   role        : current
   name        : "Junhao Wang"
-  avatar      : ""
-  bio         : ""
-  title       : "MSc. Machine Learning"
+  avatar      : "assets/images/teampic/hao.jpg"
+  bio         : "MSc student interested in graph mining and reinforcement learning"
+  title       : "MSc. Computer Science"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:junhao.wang@mail.mcgill.ca"
+    - label: "Github"
+      icon: "fab fa-fw fa-github-square"
+      url: " https://github.com/JunhaoWang"
+    - label: "Website"
+      icon: "fas fa-link"
+      url: "https://the-hao.com/"
+
 
 Sacha Lévy:
   role        : visiting
