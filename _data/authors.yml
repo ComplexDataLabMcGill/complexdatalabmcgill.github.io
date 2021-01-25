@@ -192,3 +192,18 @@ Pratheeksha Nair:
 Heather Bosiljevac:
   role: past
   name: "Heather Bosiljevac"
+
+
+Zachary Yang:
+  role        : visiting
+  name        : "Zachary Yang"
+  avatar      : "assets/images/teampic/zachary.jpg"
+  bio         : "Master student at McGill / Mila interested in applying ML to solve different problems."
+  title       : "MSc. Machine Learning"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:zachary.yang@mail.mcgill.ca"
+    - label: "Github"
+      icon: "fab fa-fw fa-github-square"
+      url: " https://github.com/RSTZZZ"
