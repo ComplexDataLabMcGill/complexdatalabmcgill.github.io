@@ -6,7 +6,7 @@ version: '3'
 
 services:
   autogen-profiles:
-    image: python:3.8-slim-buster
+    image: python:3.10-slim-buster
     container_name: autogen-profiles.complexdatalabmcgill.github.io
     environment:
       - DATA_ROOT=/data

@@ -46,11 +46,9 @@ kramdown:
   enable_coderay: false
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
 
-
 include:
   - _pages
   - _members
-
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -72,7 +70,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-
+  - jekyll-redirect-from
 
 footer:
   links:
