@@ -5,11 +5,12 @@ sitemap: false
 permalink: /team/
 classes: wide container team
 shit: visiting
+redirect_to: https://www.complexdatalab.com/people/
 ---
 
 {% assign __authors = '' | split: ',' %}
 {% for author in site.data.authors %}
-  {% assign __authors = __authors | push:author[1] %}
+{% assign __authors = __authors | push:author[1] %}
 {% endfor %}
 {% include group-by-array.html collection=__authors field='role' %}
 
@@ -22,12 +23,12 @@ shit: visiting
 
 
 {% for section_name in group_names %}
-  {% assign section = group_items[forloop.index0] | sort: "name" %}
-  {% if section.size > 0 %}
-    {% assign section_render_name = section_name | downcase %}
-    {% assign section_render_name = site.data.roles[section_render_name] %}
-    {% include team_section.html %}
-  {% endif %}
+{% assign section = group_items[forloop.index0] | sort: "name" %}
+{% if section.size > 0 %}
+{% assign section_render_name = section_name | downcase %}
+{% assign section_render_name = site.data.roles[section_render_name] %}
+{% include team_section.html %}
+{% endif %}
 {% endfor %}
 
 
