@@ -1,13 +1,14 @@
 ---
 layout: default
+redirect_to: https://www.complexdatalab.com/people
 ---
 
 {% assign name_parts = '' | split: '' %}
-{% assign name = page.name | remove: ".md" | split: " "  %}
+{% assign name = page.name | remove: ".md" | split: " " %}
 
 {% for part in name %}
-  {% assign capital_part = part | capitalize  %}
-  {% assign name_parts = name_parts | push: capital_part %}
+{% assign capital_part = part | capitalize %}
+{% assign name_parts = name_parts | push: capital_part %}
 {% endfor %}
 
 {% assign display_name = name_parts | join: " " %}
@@ -21,52 +22,53 @@ layout: default
 <div class="bio__page container">
   <header class="row">
     <div class="author__avatar col-sm-4">
-      <img class="avatar" src="{{ site.url }}{{ site.baseurl }}/{{ person.avatar | default: 'assets/images/teampic/bio-photo.jpg' }}"/>
+      <img class="avatar"
+        src="{{ site.url }}{{ site.baseurl }}/{{ person.avatar | default: 'assets/images/teampic/bio-photo.jpg' }}" />
     </div>
     <div class="content col-sm-8">
       <h1>
-          {{ person.name }}
-          <br/>
-          <small>{{ person.title }}</small>
+        {{ person.name }}
+        <br />
+        <small>{{ person.title }}</small>
       </h1>
       <p>
         {{ person.bio }}
       </p>
     </div>
   </header>
-  <hr/>
+  <hr />
 
   {% unless filtered_posts.size == 0 %}
-    <div class="post-content">
-      <h2>Recent Posts</h2>
-      <ul>
-        {% for post in filtered_posts limit:3 %}
-          {% include archive-single.html %}
-        {% endfor %}
-      </ul>
-      {% if filtered_posts.size > 3 %}
-        <p>See more posts from {{ name_parts[0] }} here</p>
-      {% endif %}
-    </div>
-    <hr/>
+  <div class="post-content">
+    <h2>Recent Posts</h2>
+    <ul>
+      {% for post in filtered_posts limit:3 %}
+      {% include archive-single.html %}
+      {% endfor %}
+    </ul>
+    {% if filtered_posts.size > 3 %}
+    <p>See more posts from {{ name_parts[0] }} here</p>
+    {% endif %}
+  </div>
+  <hr />
   {% endunless %}
 
 
   {% if person.links %}
-    <div class="bio__page-contact">
-      <b>Contact</b>
-      <br/>
-      <ul class="icon-list fa-ul">
-        {%- for link in person.links -%}
-          <li>
-            <a href="{{ link.url }}"> 
-              <span class="fa-li"><i class="{{ link.icon }}"></i></span>
-              {{ link.label }}
-            </a>
-          </li>
-        {%- endfor -%}
-      </ul>
-    </div>
+  <div class="bio__page-contact">
+    <b>Contact</b>
+    <br />
+    <ul class="icon-list fa-ul">
+      {%- for link in person.links -%}
+      <li>
+        <a href="{{ link.url }}">
+          <span class="fa-li"><i class="{{ link.icon }}"></i></span>
+          {{ link.label }}
+        </a>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </div>
   {% endif %}
 
 </div>
