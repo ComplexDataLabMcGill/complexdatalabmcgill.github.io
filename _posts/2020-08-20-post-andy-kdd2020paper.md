@@ -10,6 +10,7 @@ tags:
   - anomaly detection
   - dynamic graphs
   - spectral methods
+redirect_to: https://www.complexdatalab.com/publications/2007.01229
 ---
 
 ### _Laplacian Change Point Detection for Dynamic Graphs_
@@ -30,7 +31,7 @@ from
 </center>
 </font>
 
-if you have any questions, please reach out to me by [email](mailto:shenyang.huang@mail.mcgill.ca)
+If you have any questions, please reach out to me by [email](mailto:shenyang.huang@mail.mcgill.ca)
 
 ![](https://i.imgur.com/venuydJ.jpg)
 
